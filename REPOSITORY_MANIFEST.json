@@ -1,0 +1,33 @@
+{
+  "name": "biohub-cell-tracking-training-reproducibility",
+  "status": "public-standalone-release",
+  "author": "William Duckworth",
+  "reference_notebook": "production/fork-of-fork-of-division-focused.ipynb",
+  "reference_hidden_score": 0.957,
+  "prepared_on": "2026-09-11",
+  "scope": [
+    "P1/P2 base model training",
+    "Model C and UniGRAFT training",
+    "full-population ownership training",
+    "EdgeGRAFT training",
+    "CandidateGRAFT training",
+    "motion corrector training",
+    "DeepCenter training",
+    "validation and graph provenance",
+    "production inference reference"
+  ],
+  "excluded": [
+    "raw image volumes",
+    "GEFF training graphs",
+    "large candidate caches",
+    "model checkpoints distributed externally",
+    "credentials",
+    "personal workstation paths"
+  ],
+  "license": "Apache-2.0",
+  "repository": "https://github.com/tweak36/biohub-cell-tracking-pipeline",
+  "branch": "main",
+  "source_repository": "https://github.com/Antonoof/Biohub---Cell-Tracking-During-Development",
+  "source_branch": "william-duckworth/reproducible-training-pipeline",
+  "source_commit": "728ca7f0da418373a01cb1e79efd4b169f71016e"
+}
